@@ -17,7 +17,6 @@ function Map({region, onRegionChangeComplete, places}){
                 onPress={() => Linking.openURL(place.url)}
               >
                 Link
-
               </Text>
             </Callout>
           </Marker>
@@ -40,7 +39,7 @@ function Map({region, onRegionChangeComplete, places}){
       </MapView>
     </View>
   );
-  
+
 }
 
 const styles = StyleSheet.create({
