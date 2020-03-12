@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
 import Map from '../components/Map';
-import LocationService from '../functions/LocationService';
-import PlacesService from '../functions/PlacesService';
 
 function MapScreen(){
 

@@ -12,7 +12,7 @@ const getData = async (region) => {
   try {
     let res = await api.get('/businesses/search', {
       params: {
-        limit: 10,
+        limit: 15,
         categories: 'coffee,coffeeroasteries,coffeeshops',
         latitude: region.latitude,
         longitude: region.longitude
